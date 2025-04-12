@@ -10,6 +10,12 @@ A simple React-based Flashcard App designed to help users review JavaScript conc
 - Navigate between flashcards easily
 - Clean and responsive user interface
 
+## Future Improvements
+
+- Add the ability to create your own flashcards
+- Include flashcard categories or difficulty levels
+- Add animations and sound effects
+
 ## Demo
 
 Coming soon!
