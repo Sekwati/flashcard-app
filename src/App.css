@@ -1,0 +1,9 @@
+.flashcard-wrapper {
+    display: flex;
+    justify-content: center;   /* Center horizontally */
+    align-items: center;       /* Center vertically */
+    margin-top: 25px;
+    min-height: 250px;         
+    position: relative;
+  }
+  

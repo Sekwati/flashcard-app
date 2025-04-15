@@ -1,4 +1,3 @@
-// src/data/flashcards.js
 const flashcards = [
     {
       id: 1,
