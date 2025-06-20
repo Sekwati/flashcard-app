@@ -1,4 +1,4 @@
-// This file stores the list of flashcards — each has a question and answer
+// This file stores the list of flashcards - each has a question and answer
 const flashcards = [
   {
     question: "What is a variable in JavaScript?",
