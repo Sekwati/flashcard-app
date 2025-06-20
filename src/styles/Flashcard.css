@@ -1,0 +1,50 @@
+/* Main flashcard container */
+.flashcard {
+  width: 300px;
+  height: 200px;
+  perspective: 1000px; /* 3D flipping */
+  cursor: pointer;
+  margin: 1rem auto;
+}
+
+/* Both sides of the card */
+.flashcard .front, .flashcard .back {
+  width: 100%;
+  height: 100%;
+  position: absolute; /* Stacks front and back on top of each other */
+  backface-visibility: hidden; /* Hides the back of the card when it's turned */
+  background: #fff;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  transition: transform 0.6s;
+}
+
+/* Back side (answer side) is rotated so it's hidden at first */
+.flashcard .back {
+  transform: rotateY(180deg);
+  background: #f0f0f0;
+}
+
+/* When the card is flipped, rotate the front (question side) */
+.flashcard.flipped .front {
+  transform: rotateY(180deg);
+}
+/* Rotate the back to make it visible */
+.flashcard.flipped .back {
+  transform: rotateY(360deg);
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically if needed */
+  min-height: 100vh;
+  padding: 2rem;
+  text-align: center;
+}
