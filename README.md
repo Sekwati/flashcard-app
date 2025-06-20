@@ -6,7 +6,7 @@ A simple and interactive flashcard app built with **React** to help learn core *
 
 ## Features
 
-- Card flip interaction (question ➝ answer)
+- Card flip interaction (question -> answer)
 - Navigate through multiple flashcards (Next/Previous)
 - State management using `useState`
 - Simple, responsive layout
