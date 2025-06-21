@@ -24,7 +24,7 @@ A simple and interactive flashcard app built with **React** to help learn core *
 ---
 ## 💡 Motivation
 
-> “Although my passion lies in backend development, I built this app to strengthen my frontend fundamentals and explore interactive user experiences with React.”
+I built this app to strengthen my frontend fundamentals and explore interactive user experiences with React.
 
 ---
 
