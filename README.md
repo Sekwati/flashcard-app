@@ -22,7 +22,7 @@ A simple and interactive flashcard app built with **React** to help learn core *
 - Vite (Project scaffolding and dev server)
 
 ---
-## 💡 Motivation
+## Motivation
 
 I built this app to strengthen my frontend fundamentals and explore interactive user experiences with React.
 
